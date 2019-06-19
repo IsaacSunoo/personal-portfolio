@@ -1,0 +1,20 @@
+.header {
+  text-align: center;
+  background-color: #000;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-family: $mainFont;
+}
+
+.page-links {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 13px;
+
+  h4 {
+    cursor: pointer;
+  }
+}
