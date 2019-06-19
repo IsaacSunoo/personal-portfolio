@@ -1,25 +1,22 @@
 .header {
-  text-align: center;
   background-color: #000;
   color: #FFF;
   display: flex;
-  flex-direction: column;
-  height: 100px;
-  justify-content: center;
-  padding: 20px;
+  height: 80px;
   font-family: $mainFont;
   position: sticky;
-  z-index: 1000;
   top: 0;
+  z-index: 1000;
 }
 
-.page-links {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 3px;
-  padding-bottom: 5px;
-
-  h4 {
-    cursor: pointer;
-  }
+.personal-name {
+  padding-left: 20px;
+  padding-top: 5px;
 }
+
+.dropdown-header {
+  position: absolute;
+  right: 30px;
+}
+
+
