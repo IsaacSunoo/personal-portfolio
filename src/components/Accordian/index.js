@@ -6,7 +6,7 @@ import FatherSon from '../../images/fatherson.jpeg';
 import Keystone from '../../images/keystone.jpeg';
 import SurfSunset from '../../images/surfsunset.jpg';
 import SnowOllie from '../../images/snowollie.png';
-import PuppyFace from '../../images/IMG_0119.jpg';
+import HikingOllie from '../../images/hikingOllie.jpeg';
 
 class Accordian extends Component {
   render() {
@@ -48,9 +48,9 @@ class Accordian extends Component {
                       <figcaption><span>Ollie Love's Snow</span></figcaption>
 
                       <figure>
-                        <img src={PuppyFace} alt='Ollie as a puppy' />
+                        <img src={HikingOllie} alt='Ollie Hiking the Rockies' />
                         <input type='radio' name='radio-set' id='last-image' />
-                        <figcaption><span>Puppy Ollie</span></figcaption>
+                        <figcaption><span>Hiking Ollie</span></figcaption>
 
                       </figure>
                     </figure>
