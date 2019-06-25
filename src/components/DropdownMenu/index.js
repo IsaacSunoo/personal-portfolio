@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import OverlayMenu from '../OverlayMenu';
 
 class DropdownMenu extends Component {
   constructor() {
@@ -28,7 +27,7 @@ class DropdownMenu extends Component {
           <span></span>
         </div>
         <div>
-          <OverlayMenu menuDisplay={condition} />
+          {/* <OverlayMenu menuDisplay={condition} /> */}
         </div>
       </div>
     );
