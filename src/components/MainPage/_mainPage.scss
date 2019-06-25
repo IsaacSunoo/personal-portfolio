@@ -25,9 +25,15 @@
     text-align: center;
   }
 
-  & h1 {
+  h1 {
+    letter-spacing: 2px;
     font-size: 4rem;
-    margin: 0 270px;
+    font-weight: 400;
+    font-family: $mainFont;
+
+    .wrap-text {
+      display: block;
+    }
   }
 }
 

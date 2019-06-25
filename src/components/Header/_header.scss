@@ -2,16 +2,23 @@
   background-color: #000;
   color: #FFF;
   display: flex;
-  height: 60px;
   font-family: $mainFont;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 2;
+
+  h1, h4 {
+    font-weight: 400;
+
+  }
 }
 
 .personal-name {
   padding-left: 20px;
   padding-top: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .dropdown-header {
