@@ -18,7 +18,7 @@ class MainPage extends Component {
         {/* <div className='main-page-text'>Not Your Average Software Engineer</div> */}
       </div>
     );
-  }
+  } 
 }
 
 export default MainPage;

@@ -9,12 +9,17 @@ import SnowOllie from '../../images/snowollie.png';
 import HikingOllie from '../../images/hikingOllie.jpeg';
 
 class Accordian extends Component {
+
+  handleChange = e => {
+    const { checked } = e.target;
+    console.log(checked)
+  }
   render() {
     return (
       <div className='accordian-container'>
         <figure>
           <img src={Jordan} alt='Michael Jordan Free Throw' />
-          <input type='radio' name='radio-set' />
+          <input type='radio' name='radio-set' defaultChecked/>
           <figcaption><span>Take A Shot</span></figcaption>
 
           <figure>
