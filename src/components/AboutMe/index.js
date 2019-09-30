@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Skills from '../Skills';
 import Accordian from '../Accordian';
 import torreyPines from '../../images/torreypines.jpeg';
 
@@ -22,6 +23,9 @@ class AboutMe extends Component {
         </section>
         <section className='photo-accordian'>
           <Accordian />
+        </section>
+        <section className='skills-section'>
+          <Skills />
         </section>
       </div>
     )

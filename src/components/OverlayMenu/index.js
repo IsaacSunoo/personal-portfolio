@@ -10,7 +10,7 @@ class OverlayMenu extends Component {
   }
 
   render() {
-    console.log(this.state.isChecked);
+    // console.log(this.state.isChecked);
     return (
       <div className='overlay-container'>
         <input type='checkbox' className='toggler' />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import OverlayMenu from '../OverlayMenu';
 
 const Header = () => {
   return (
@@ -10,8 +11,9 @@ const Header = () => {
           <h4>Software Engineer</h4>
         </Link>
       </section>
+      <OverlayMenu />
     </header>
   );
 }
 
-export default Header;
+export default Header; 
