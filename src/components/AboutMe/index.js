@@ -25,6 +25,7 @@ class AboutMe extends Component {
           <Accordian />
         </section>
         <section className='skills-section'>
+          <h3>Skills</h3>
           <Skills />
         </section>
       </div>
